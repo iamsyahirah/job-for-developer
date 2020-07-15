@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #f7f0fa;
+    font-family: 'Open Sans', cursive;
+}
+
+
+/* === HEADER === */
+
+header {}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.header-title img {
+    height: 50px;
+    margin: 0 15px 25px 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+
+/* === DATE UPDATE === */
+
+.date-update {
+    margin: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #a86cc1;
+}
+
+
+/* === CLOSED OPENINGS === */
+
+.closed-openings {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 15px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #eddbf4;
+    border-radius: 10px;
+    width: 30%;
+    color: #7d7d7d;
+}
+
+
+/* === TABLE OF CONTENT === */
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.content ul li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 12px;
+    padding: 5px 18px 5px 18px;
+    width: 18%;
+    background-color: #9867c5;
+    border-radius: 20px;
+}
+
+.content a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+/* === SEARCH === */
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search input {
+    width: 40%;
+    height: 30px;
+    padding-left: 15px;
+    border: 1px solid #e3e3e3;
+    border-radius: 15px;
+    outline: none;
+    color: #7d7d7d;
+}
+
+
+/* === TABLE === */
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: 1px solid #e3e3e3;
+    border-collapse: separate !important;
+    width: 90%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+th,
+td {
+    font-size: 14px;
+    color: #7d7d7d;
+    text-align: left;
+    vertical-align: middle;
+    height: 40px;
+    padding: 10px;
+}
+
+th {
+    font-weight: 700;
+    color: #525252;
+    width: 10%;
+    font-size: 16px;
+}
+
+.table-position {
+    width: 15%;
+}
+
+.table-company {
+    width: 15%;
+}
+
+.table-languages {
+    width: 30%;
+}
+
+td a {
+    background-color: #dfc0eb;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 40px;
+    padding: 5px 15px 5px 15px;
+}
+
+td a:hover {
+    background-color: #9867c5;
+}
+
+
+/* === FOOTER === */
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
